@@ -95,6 +95,39 @@ main{
 
     .funzionamento{
         height: 3320px;
-        
+
+        .sotto_sezione{
+            @include flex-space-between;
+            padding: 80px 0;
+            .immagine_funzionamento {
+                width: 50%;
+                img{
+                    width: 100%;
+                }
+            }
+            .testo_funzionamento{
+                width: 25%;
+                h2{
+                    font-size: 40px;
+                    padding-bottom: 100px;
+                }
+                p{
+                    padding-bottom: 40px;
+                }
+                a{
+                    text-decoration: none;
+                }
+                img{
+                    width: 100%;
+                    margin-top: 40px;
+                }
+            }
+            .testo_funzionamento:nth-child(odd){
+                margin-left: 25%;
+            }
+            .testo_funzionamento:nth-child(even){
+                margin-right: 25%;
+            }
+        }
     }
 }

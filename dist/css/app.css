@@ -148,6 +148,40 @@ main .processi .container_processi .coniglio img {
 main .funzionamento {
   height: 3320px;
 }
+main .funzionamento .sotto_sezione {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 0;
+}
+main .funzionamento .sotto_sezione .immagine_funzionamento {
+  width: 50%;
+}
+main .funzionamento .sotto_sezione .immagine_funzionamento img {
+  width: 100%;
+}
+main .funzionamento .sotto_sezione .testo_funzionamento {
+  width: 25%;
+}
+main .funzionamento .sotto_sezione .testo_funzionamento h2 {
+  font-size: 40px;
+  padding-bottom: 100px;
+}
+main .funzionamento .sotto_sezione .testo_funzionamento p {
+  padding-bottom: 40px;
+}
+main .funzionamento .sotto_sezione .testo_funzionamento a {
+  text-decoration: none;
+}
+main .funzionamento .sotto_sezione .testo_funzionamento img {
+  width: 100%;
+  margin-top: 40px;
+}
+main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(odd) {
+  margin-left: 25%;
+}
+main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(even) {
+  margin-right: 25%;
+}
 
 footer {
   height: 66px;
