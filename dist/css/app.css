@@ -145,6 +145,9 @@ main .processi .container_processi .coniglio {
 main .processi .container_processi .coniglio img {
   height: 50%;
 }
+main .funzionamento {
+  height: 3320px;
+}
 
 footer {
   height: 66px;
