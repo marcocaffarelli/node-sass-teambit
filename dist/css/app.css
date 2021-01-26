@@ -1,1 +1,26 @@
+body {
+  height: 8440px;
+}
 
+header, main, footer {
+  width: 100vw;
+}
+
+nav, .jumbodron, .processi {
+  width: 80%;
+}
+
+header {
+  background-color: yellow;
+  height: 80px;
+}
+
+main {
+  height: 100px;
+  background-color: blue;
+}
+
+footer {
+  height: 66px;
+  background-color: red;
+}
