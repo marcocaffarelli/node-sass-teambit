@@ -14,6 +14,7 @@ header, main, footer {
 
 nav, .jumbodron, .processi {
   width: 80%;
+  margin: auto;
 }
 
 header {
@@ -24,7 +25,6 @@ header nav {
   display: flex;
   justify-content: space-between;
   height: 100%;
-  margin: auto;
   align-items: center;
   border-bottom: 1px solid #58402C;
   color: #58402C;
@@ -56,9 +56,49 @@ header nav .link button span {
   color: blue;
 }
 
-main {
-  height: 100px;
-  background-color: blue;
+main .jumbodron {
+  display: flex;
+  justify-content: space-between;
+  height: 635px;
+}
+main .jumbodron .left {
+  width: 50%;
+}
+main .jumbodron .left h1, main .jumbodron .left h3 {
+  color: #58402C;
+}
+main .jumbodron .left h1 {
+  font-size: 60px;
+  padding-top: 15px;
+}
+main .jumbodron .left h3 {
+  font-size: 30px;
+  margin-top: 10px;
+  margin-bottom: 120px;
+}
+main .jumbodron .left button {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+}
+main .jumbodron .left button img {
+  height: 25px;
+}
+main .jumbodron .left span {
+  position: relative;
+  bottom: 5px;
+}
+main .jumbodron .left div {
+  margin-top: 20px;
+}
+main .jumbodron .right {
+  width: 50%;
+}
+main .jumbodron .right img {
+  height: 60%;
 }
 
 footer {

@@ -1,4 +1,47 @@
 main{
-    height: 100px;
-    background-color: blue;
+    .jumbodron{
+        @include flex-space-between;
+        height: 635px;
+
+        .left{
+            width: 50%;
+            h1, h3{
+                color: $color_brown;
+            }
+            h1{
+                font-size: 60px;
+                padding-top: 15px;
+            }
+            h3{
+                font-size: 30px;
+                margin-top: 10px;
+                margin-bottom: 120px;
+            }
+            button{
+                background-color: darkblue;
+                color: $bg_white;
+                border: none;
+                border-radius: 5px;
+                padding: 5px 10px;
+                font-weight: bold;
+                img{
+                    height: $height_logo;
+                }
+            }
+            span{
+                position: relative;
+                bottom: 5px;
+            }
+            div{
+                margin-top: 20px;
+            }
+        }
+
+        .right{
+            width: 50%;
+            img{
+                height: 60%;
+            }
+        }
+    }
 }

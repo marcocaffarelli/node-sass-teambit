@@ -5,10 +5,9 @@ header{
     nav{
         @include flex-space-between;
         height: 100%;
-        margin: auto;
         align-items: center;
-        border-bottom: 1px solid #58402C;
-        color: #58402C;
+        border-bottom: 1px solid $color_brown;
+        color: $color_brown;
 
         .link{
             display: $display_flex;
@@ -27,7 +26,7 @@ header{
                 border-radius: 10px;
                 background-color: $bg_white;
                 img{
-                    height: 25px;                   
+                    height: $height_logo;                   
                 }
                 span{
                     position: relative;
