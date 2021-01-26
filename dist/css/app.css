@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   height: 8440px;
 }
@@ -11,8 +17,43 @@ nav, .jumbodron, .processi {
 }
 
 header {
-  background-color: yellow;
-  height: 80px;
+  background-color: white;
+  height: 90px;
+}
+header nav {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  border-bottom: 1px solid #58402C;
+  color: #58402C;
+}
+header nav .link {
+  display: flex;
+}
+header nav .link ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+header nav .link ul li {
+  padding: 0 15px;
+}
+header nav .link button {
+  padding: 10px 15px;
+  border: 1px solid blue;
+  border-radius: 10px;
+  background-color: white;
+}
+header nav .link button img {
+  height: 25px;
+}
+header nav .link button span {
+  position: relative;
+  bottom: 5px;
+  font-weight: bold;
+  color: blue;
 }
 
 main {

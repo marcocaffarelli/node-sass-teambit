@@ -1,3 +1,10 @@
 $bg_beige: #FFE7D2;
 
 $bg_white: white;
+
+$display_flex: flex;
+
+@mixin flex-space-between{
+    display: flex;
+    justify-content: space-between;
+}
