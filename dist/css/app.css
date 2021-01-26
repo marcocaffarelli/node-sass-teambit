@@ -12,7 +12,7 @@ header, main, footer {
   width: 100vw;
 }
 
-nav, .jumbodron, .processi {
+nav, .jumbodron, .container_processi {
   width: 80%;
   margin: auto;
 }
@@ -99,6 +99,10 @@ main .jumbodron .right {
 }
 main .jumbodron .right img {
   height: 60%;
+}
+main .processi {
+  background-color: #FFE7D2;
+  height: 2380px;
 }
 
 footer {
