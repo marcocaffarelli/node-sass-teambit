@@ -182,6 +182,66 @@ main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(odd) {
 main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(even) {
   margin-right: 25%;
 }
+main .messaggio {
+  background-color: #FFE7D2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 0;
+}
+main .messaggio h2 {
+  font-size: 60px;
+  margin-bottom: 80px;
+}
+main .messaggio .container_messaggio {
+  position: relative;
+  background-color: white;
+  border: 2px solid blue;
+  border-radius: 10px;
+  width: 40%;
+}
+main .messaggio .container_messaggio i {
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  font-size: 40px;
+  color: blue;
+}
+main .messaggio .container_messaggio p {
+  margin: 20px;
+}
+main .messaggio .container_messaggio p:last-child {
+  display: inline-block;
+}
+main .messaggio .container_messaggio .fondatori {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+main .messaggio .container_messaggio .fondatori img {
+  margin: 0 20px;
+}
+main .messaggio .container_messaggio .fondatori span {
+  color: blue;
+}
+main .messaggio button {
+  background-color: darkblue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+main .messaggio button img {
+  height: 25px;
+}
+main .messaggio span {
+  position: relative;
+  bottom: 5px;
+}
 
 footer {
   height: 66px;

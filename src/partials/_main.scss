@@ -130,4 +130,65 @@ main{
             }
         }
     }
+
+    .messaggio{
+        background-color: $bg_beige;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 80px 0;
+        h2{
+            font-size: 60px;
+            margin-bottom: 80px;
+        }
+        .container_messaggio{
+            position: relative;
+            background-color: $bg_white;
+            border: 2px solid blue;
+            border-radius: 10px;
+            width: 40%;
+            i{
+                position: absolute;
+                top: -20px;
+                left: -20px;
+                font-size: 40px;
+                color: blue;
+            }
+            p{
+                margin: 20px;
+            }
+            p:last-child{
+                display: inline-block;
+            }
+            .fondatori{
+                display: flex;
+                align-items: center;
+                margin-bottom: 20px;
+                img{
+                    margin:0 20px;
+                }
+                span{
+                    color: blue;
+                }
+            }
+        }
+        button{
+            background-color: darkblue;
+            color: $bg_white;
+            border: none;
+            border-radius: 5px;
+            padding: 5px 10px;
+            font-weight: bold;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            img{
+                height: $height_logo;
+            }
+        }
+        span{
+            position: relative;
+            bottom: 5px;
+        }
+    }
 }
