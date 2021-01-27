@@ -19,3 +19,22 @@ nav, .jumbodron, .container_processi{
     width: 80%;
     margin:auto;
 }
+
+@media screen and (min-width: 550px) and (max-width: 998px){
+main{
+    .jumbodron{
+        flex-wrap: wrap;
+        .left{
+            flex-basis: 100%;
+            text-align: center;
+        }
+        .right{
+            flex-basis: 100%;
+        }
+    }
+}
+}
+
+@media screen and (max-width: 549px){
+
+}

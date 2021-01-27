@@ -1,8 +1,7 @@
 main{
     .jumbodron{
-        @include flex-space-between;
-        height: 635px;
-        padding-top: 40px;
+        display: flex;
+        padding: 50px 0;
 
         .left{
             width: 50%;
@@ -42,7 +41,7 @@ main{
         .right{
             width: 50%;
             img{
-                height: 60%;
+                width: 100%;
             }
         }
     }
