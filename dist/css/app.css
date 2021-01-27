@@ -29,15 +29,16 @@ header nav {
   justify-content: space-between;
   height: 100%;
   align-items: center;
-  border-bottom: 1px solid #58402C;
+  border-bottom: 2px solid #58402C;
   color: #58402C;
+  padding: 0 20px;
 }
 header nav .link {
   display: flex;
+  align-items: center;
 }
 header nav .link ul {
   display: flex;
-  align-items: center;
   list-style: none;
 }
 header nav .link ul li {
@@ -45,7 +46,7 @@ header nav .link ul li {
 }
 header nav .link button {
   padding: 10px 15px;
-  border: 1px solid blue;
+  border: 2px solid blue;
   border-radius: 10px;
   background-color: white;
 }
@@ -55,8 +56,13 @@ header nav .link button img {
 header nav .link button span {
   position: relative;
   bottom: 5px;
+  font-size: 16px;
   font-weight: bold;
   color: blue;
+}
+header nav .link i {
+  font-size: 25px;
+  display: none;
 }
 
 main .jumbodron {
@@ -117,7 +123,7 @@ main .processi .container_processi h2 {
   margin: auto;
 }
 main .processi .container_processi .parte_superiore {
-  border-bottom: 1px solid #58402C;
+  border-bottom: 2px solid #58402C;
 }
 main .processi .container_processi .parte_superiore h2 {
   width: 50%;
@@ -292,6 +298,17 @@ footer .container_footer li {
 }
 
 @media screen and (min-width: 550px) and (max-width: 998px) {
+  header nav .link ul li {
+    display: none;
+  }
+  header nav .link button {
+    display: none;
+  }
+  header nav .link i {
+    font-size: 25px;
+    display: block;
+  }
+
   main .jumbodron {
     flex-wrap: wrap;
   }
@@ -328,5 +345,39 @@ footer .container_footer li {
   }
   main .messaggio .container_messaggio {
     width: 80%;
+  }
+
+  footer .container_footer {
+    flex-wrap: wrap;
+  }
+  footer .container_footer div:first-child {
+    width: 5%;
+  }
+  footer .container_footer div:first-child img {
+    width: 55px;
+  }
+  footer .container_footer div:nth-child(2) {
+    width: 75%;
+    margin-right: 10%;
+  }
+  footer .container_footer div:nth-child(3) {
+    width: 26.6%;
+    margin-left: 10%;
+  }
+  footer .container_footer div:nth-child(4) {
+    width: 26.6%;
+  }
+  footer .container_footer div:nth-child(5) {
+    width: 26.6%;
+    margin-right: 10%;
+  }
+  footer .container_footer div:nth-child(6) {
+    width: 26.6%;
+    margin-right: 26.6%;
+    margin-left: 10%;
+  }
+  footer .container_footer div:last-child {
+    width: 26.6%;
+    margin-right: 10%;
   }
 }

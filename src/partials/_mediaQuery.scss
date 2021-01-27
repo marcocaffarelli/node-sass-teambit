@@ -1,4 +1,24 @@
 @media screen and (min-width: 550px) and (max-width: 998px){
+    header{
+        nav{
+           
+            .link{
+                ul{
+                    li{
+                        display: none;
+                    }
+                }
+                button{
+                    display: none;
+                }
+                i{
+                    font-size: 25px;
+                    display: block;
+                }
+            }
+        }
+    }
+    
     main{
         .jumbodron{
             flex-wrap: wrap;
@@ -43,6 +63,42 @@
         .messaggio{
             .container_messaggio{
                 width: 80%;
+            }
+        }
+    }
+
+    footer{
+        .container_footer{
+            flex-wrap: wrap;
+            div:first-child{
+                width: 5%;
+                img{
+                    width:55px;
+                }
+            }
+            div:nth-child(2){
+                width: 75%;
+                margin-right: 10%;
+            }
+            div:nth-child(3){
+                width: 26.6%;
+                margin-left: 10%;
+            }
+            div:nth-child(4){
+                width: 26.6%;
+            }
+            div:nth-child(5){
+                width: 26.6%;
+                margin-right: 10%;
+            }
+            div:nth-child(6){
+                width: 26.6%;
+                margin-right: 26.6%;
+                margin-left: 10%;
+            }
+            div:last-child{
+                width: 26.6%;
+                margin-right: 10%;
             }
         }
     }
