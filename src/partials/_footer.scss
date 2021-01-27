@@ -1,4 +1,48 @@
 footer{
-    height: 66px;
-    background-color: red;
+    color: $color_brown;
+    .container_footer{
+        display: flex;
+        width: 100%;
+        h4{
+            font-size: 22px;
+            margin-bottom: 20px;
+        }
+        a,p{
+            font-weight: 600;
+            font-size: 16px;
+        }
+        div{
+            line-height: 30px;
+            padding: 2%;
+        }
+        div:first-child{
+            width: 3%;
+            margin-left: 10%;
+        }
+        div:nth-child(2){
+            width: 22%;
+        }
+        div:nth-child(3){
+            width: 13%;
+        }
+        div:nth-child(4){
+            width: 10%;
+        }
+        div:nth-child(5){
+            width: 13%;
+        }
+        div:nth-child(6){
+            width: 10%;
+        }
+        div:last-child{
+            width: 9%;
+        }
+        span{
+            color: blue;
+            font-size: 12px;
+        }
+        li{
+            list-style: none;
+        }
+    }
 }

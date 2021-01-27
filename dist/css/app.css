@@ -9,7 +9,8 @@ body {
 }
 
 header, main, footer {
-  width: 100vw;
+  width: 1440px;
+  margin: auto;
 }
 
 nav, .jumbodron, .container_processi {
@@ -244,6 +245,50 @@ main .messaggio span {
 }
 
 footer {
-  height: 66px;
-  background-color: red;
+  color: #58402C;
+}
+footer .container_footer {
+  display: flex;
+  width: 100%;
+}
+footer .container_footer h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+footer .container_footer a, footer .container_footer p {
+  font-weight: 600;
+  font-size: 16px;
+}
+footer .container_footer div {
+  line-height: 30px;
+  padding: 2%;
+}
+footer .container_footer div:first-child {
+  width: 3%;
+  margin-left: 10%;
+}
+footer .container_footer div:nth-child(2) {
+  width: 22%;
+}
+footer .container_footer div:nth-child(3) {
+  width: 13%;
+}
+footer .container_footer div:nth-child(4) {
+  width: 10%;
+}
+footer .container_footer div:nth-child(5) {
+  width: 13%;
+}
+footer .container_footer div:nth-child(6) {
+  width: 10%;
+}
+footer .container_footer div:last-child {
+  width: 9%;
+}
+footer .container_footer span {
+  color: blue;
+  font-size: 12px;
+}
+footer .container_footer li {
+  list-style: none;
 }
