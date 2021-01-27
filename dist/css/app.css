@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
 }
 
 body {
@@ -69,11 +70,12 @@ main .jumbodron .left h1, main .jumbodron .left h3 {
   color: #58402C;
 }
 main .jumbodron .left h1 {
-  font-size: 60px;
+  font-size: 40px;
   padding-top: 15px;
+  line-height: 60px;
 }
 main .jumbodron .left h3 {
-  font-size: 30px;
+  font-size: 20px;
   margin-top: 10px;
   margin-bottom: 120px;
 }
@@ -111,7 +113,7 @@ main .processi .container_processi {
   padding: 80px 0;
 }
 main .processi .container_processi h2 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   margin: auto;
 }
@@ -145,9 +147,6 @@ main .processi .container_processi .coniglio {
 }
 main .processi .container_processi .coniglio img {
   height: 50%;
-}
-main .funzionamento {
-  height: 3320px;
 }
 main .funzionamento .sotto_sezione {
   display: flex;
@@ -192,7 +191,7 @@ main .messaggio {
   padding: 80px 0;
 }
 main .messaggio h2 {
-  font-size: 60px;
+  font-size: 40px;
   margin-bottom: 80px;
 }
 main .messaggio .container_messaggio {
