@@ -1,5 +1,5 @@
-@media screen and (min-width: 550px) and (max-width: 998px){
-    header{
+@media screen and (max-width: 998px){
+     header{
         nav{  
             .link{
                 ul{
@@ -9,15 +9,11 @@
                 }
                 button{
                     display: none;
-                }
-                i{
-                    font-size: 25px;
-                    display: block;
-                }
+                }  
             }
         }
     }
-    
+
     main{
         font-size: $font_20px;
         .jumbodron{
@@ -25,16 +21,6 @@
             .left{
                 flex-basis: 100%;
                 text-align: center;
-                h1{
-                    font-size: 60px;   
-                }
-                h3{
-                    font-size: 30px;
-                    margin-bottom: 40px;
-                }
-                button{
-                    font-size: $font_20px;
-                }
             }
             .right{
                 flex-basis: 100%;
@@ -44,9 +30,6 @@
         .processi{
             .container_processi{
                 .parte_superiore, .parte_inferiore{
-                    h2{
-                        font-size: 35px;
-                    }
                     .list_card{
                         flex-wrap: wrap;
                     }
@@ -66,9 +49,6 @@
                     position: relative;
                     flex-basis: 100%;
                     text-align: center;
-                    p, a{
-                        font-size: 25px;
-                    }
                 }
 
                 .testo_funzionamento:nth-child(odd){
@@ -76,6 +56,95 @@
                 }
                 .testo_funzionamento:nth-child(even){
                     margin-right: 0;
+                }
+            }
+        }
+
+        .messaggio{
+            .container_messaggio{
+                width: 80%;
+            }
+        }
+    }
+
+    footer{
+        .container_footer{
+            flex-wrap: wrap;
+            div:first-child{
+                width: 5%;
+                img{
+                    width:55px;
+                }
+            }
+            div:nth-child(2){
+                width: 75%;
+                margin-right: 10%;
+            }
+            div:nth-child(3){
+                width: 26.6%;
+                margin-left: 10%;
+            }
+            div:nth-child(4){
+                width: 26.6%;
+            }
+            div:nth-child(5){
+                width: 26.6%;
+                margin-right: 10%;
+            }
+            div:last-child{
+                width: 26.6%;
+                margin-right: 10%;
+            }
+        }
+    }   
+
+}
+
+@media screen and (min-width: 550px) and (max-width: 998px){
+    header{
+        nav{  
+            .link{
+                i{
+                    font-size: 50px;
+                    display: block;
+                    
+                }
+            }
+        }
+    }
+    
+    main{
+        font-size: $font_20px;
+        .jumbodron{
+            .left{
+                h1{
+                    font-size: 60px;   
+                }
+                h3{
+                    font-size: $font_30px;
+                    margin-bottom: 40px;
+                }
+                button{
+                    font-size: $font_20px;
+                }
+            }
+        }
+
+        .processi{
+            .container_processi{
+                .parte_superiore, .parte_inferiore{
+                    h2{
+                        font-size: 35px;
+                    }
+                }
+            }
+        }
+        .funzionamento{
+            .sotto_sezione{
+                .testo_funzionamento{
+                    p, a{
+                        font-size: 25px;
+                    }
                 }
             }
 
@@ -114,9 +183,6 @@
         }
 
         .messaggio{
-            .container_messaggio{
-                width: 80%;
-            }
             button{
                 font-size: $font_20px;
             }
@@ -125,7 +191,6 @@
 
     footer{
         .container_footer{
-            flex-wrap: wrap;
             div{
                 p{
                     font-size: $font_20px;
@@ -141,35 +206,11 @@
                     }
                 }
             }
-            div:first-child{
-                width: 5%;
-                img{
-                    width:55px;
-                }
-            }
-            div:nth-child(2){
-                width: 75%;
-                margin-right: 10%;
-            }
-            div:nth-child(3){
-                width: 26.6%;
-                margin-left: 10%;
-            }
-            div:nth-child(4){
-                width: 26.6%;
-            }
-            div:nth-child(5){
-                width: 26.6%;
-                margin-right: 10%;
-            }
+
             div:nth-child(6){
                 width: 26.6%;
                 margin-right: 26.6%;
                 margin-left: 10%;
-            }
-            div:last-child{
-                width: 26.6%;
-                margin-right: 10%;
             }
         }
     }
@@ -184,14 +225,6 @@
                 }
             }
             .link{
-                ul{
-                    li{
-                        display: none;
-                    }
-                }
-                button{
-                    display: none;
-                }
                 i{
                     font-size: 50px;
                     display: block;
@@ -201,12 +234,9 @@
     }
 
     main{
-        font-size: 30px;
+        font-size: $font_30px;
         .jumbodron{
-            flex-wrap: wrap;
             .left{
-                flex-basis: 100%;
-                text-align: center;
                 h1{
                     font-size: 110px; 
                     line-height: 120px;  
@@ -217,12 +247,9 @@
                     margin-bottom: 80px;
                 }
                 button{
-                    font-size: 30px;
+                    font-size: $font_30px;
                     padding: 10px 20px;
                 }
-            }
-            .right{
-                flex-basis: 100%;
             }
         }
         .processi{
@@ -231,38 +258,18 @@
                     h2{
                         font-size: 60px;
                     }
-                    .list_card{
-                        flex-wrap: wrap;
-                    }
-                    .card_animata{
-                        flex-basis: 100%;
-                    }
                 }
             }
         }
         .funzionamento{
             .sotto_sezione{
-                flex-wrap: wrap;
-                .immagine_funzionamento{
-                    flex-basis: 100%;
-                }
                 .testo_funzionamento{
-                    position: relative;
-                    flex-basis: 100%;
-                    text-align: center;
                     h2{
                        font-size: 60px; 
                     }
                     p, a{
                         font-size: 50px;
                     }
-                }
-
-                .testo_funzionamento:nth-child(odd){
-                    margin-left: 0;
-                }
-                .testo_funzionamento:nth-child(even){
-                    margin-right: 0;
                 }
             }
 
@@ -275,24 +282,20 @@
             img{
                 width: 100px;
             }
-            .container_messaggio{
-                width: 80%;
-            }
             button{
-                font-size: 30px;
+                font-size: $font_30px;
             }
         }
     }
 
     footer{
         .container_footer{
-            flex-wrap: wrap;
             div{
                 p{
                     span{
                         font-size: 20px;
                     }
-                    font-size: 30px;
+                    font-size: $font_30px;
                     line-height: 40px;
                 }
                 h4{
@@ -301,38 +304,14 @@
                 ul{
                     li{
                         a{
-                            font-size: 30px;
+                            font-size: $font_30px;
                         }
                     }
                 }
             }
-            div:first-child{
-                width: 5%;
-                img{
-                    width:55px;
-                }
-            }
-            div:nth-child(2){
-                width: 75%;
-                margin-right: 10%;
-            }
-            div:nth-child(3){
-                width: 26.6%;
-                margin-left: 10%;
-            }
-            div:nth-child(4){
-                width: 26.6%;
-            }
-            div:nth-child(5){
-                width: 26.6%;
-                margin-right: 10%;
-            }
             div:nth-child(6){
                 width: 26.6%;
                 margin-left: 10%;
-            }
-            div:last-child{
-                width: 26.6%;
             }
         }
     }   

@@ -297,16 +297,12 @@ footer .container_footer li {
   list-style: none;
 }
 
-@media screen and (min-width: 550px) and (max-width: 998px) {
+@media screen and (max-width: 998px) {
   header nav .link ul li {
     display: none;
   }
   header nav .link button {
     display: none;
-  }
-  header nav .link i {
-    font-size: 25px;
-    display: block;
   }
 
   main {
@@ -319,21 +315,8 @@ footer .container_footer li {
     flex-basis: 100%;
     text-align: center;
   }
-  main .jumbodron .left h1 {
-    font-size: 60px;
-  }
-  main .jumbodron .left h3 {
-    font-size: 30px;
-    margin-bottom: 40px;
-  }
-  main .jumbodron .left button {
-    font-size: 20px;
-  }
   main .jumbodron .right {
     flex-basis: 100%;
-  }
-  main .processi .container_processi .parte_superiore h2, main .processi .container_processi .parte_inferiore h2 {
-    font-size: 35px;
   }
   main .processi .container_processi .parte_superiore .list_card, main .processi .container_processi .parte_inferiore .list_card {
     flex-wrap: wrap;
@@ -352,14 +335,69 @@ footer .container_footer li {
     flex-basis: 100%;
     text-align: center;
   }
-  main .funzionamento .sotto_sezione .testo_funzionamento p, main .funzionamento .sotto_sezione .testo_funzionamento a {
-    font-size: 25px;
-  }
   main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(odd) {
     margin-left: 0;
   }
   main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(even) {
     margin-right: 0;
+  }
+  main .messaggio .container_messaggio {
+    width: 80%;
+  }
+
+  footer .container_footer {
+    flex-wrap: wrap;
+  }
+  footer .container_footer div:first-child {
+    width: 5%;
+  }
+  footer .container_footer div:first-child img {
+    width: 55px;
+  }
+  footer .container_footer div:nth-child(2) {
+    width: 75%;
+    margin-right: 10%;
+  }
+  footer .container_footer div:nth-child(3) {
+    width: 26.6%;
+    margin-left: 10%;
+  }
+  footer .container_footer div:nth-child(4) {
+    width: 26.6%;
+  }
+  footer .container_footer div:nth-child(5) {
+    width: 26.6%;
+    margin-right: 10%;
+  }
+  footer .container_footer div:last-child {
+    width: 26.6%;
+    margin-right: 10%;
+  }
+}
+@media screen and (min-width: 550px) and (max-width: 998px) {
+  header nav .link i {
+    font-size: 50px;
+    display: block;
+  }
+
+  main {
+    font-size: 20px;
+  }
+  main .jumbodron .left h1 {
+    font-size: 60px;
+  }
+  main .jumbodron .left h3 {
+    font-size: 30px;
+    margin-bottom: 40px;
+  }
+  main .jumbodron .left button {
+    font-size: 20px;
+  }
+  main .processi .container_processi .parte_superiore h2, main .processi .container_processi .parte_inferiore h2 {
+    font-size: 35px;
+  }
+  main .funzionamento .sotto_sezione .testo_funzionamento p, main .funzionamento .sotto_sezione .testo_funzionamento a {
+    font-size: 25px;
   }
   main .funzionamento .sotto_sezione:nth-child(1) .testo_funzionamento a {
     position: absolute;
@@ -381,16 +419,10 @@ footer .container_footer li {
     bottom: 0;
     left: 150px;
   }
-  main .messaggio .container_messaggio {
-    width: 80%;
-  }
   main .messaggio button {
     font-size: 20px;
   }
 
-  footer .container_footer {
-    flex-wrap: wrap;
-  }
   footer .container_footer div p {
     font-size: 20px;
   }
@@ -400,46 +432,15 @@ footer .container_footer li {
   footer .container_footer div ul li a {
     font-size: 20px;
   }
-  footer .container_footer div:first-child {
-    width: 5%;
-  }
-  footer .container_footer div:first-child img {
-    width: 55px;
-  }
-  footer .container_footer div:nth-child(2) {
-    width: 75%;
-    margin-right: 10%;
-  }
-  footer .container_footer div:nth-child(3) {
-    width: 26.6%;
-    margin-left: 10%;
-  }
-  footer .container_footer div:nth-child(4) {
-    width: 26.6%;
-  }
-  footer .container_footer div:nth-child(5) {
-    width: 26.6%;
-    margin-right: 10%;
-  }
   footer .container_footer div:nth-child(6) {
     width: 26.6%;
     margin-right: 26.6%;
     margin-left: 10%;
   }
-  footer .container_footer div:last-child {
-    width: 26.6%;
-    margin-right: 10%;
-  }
 }
 @media screen and (max-width: 550px) {
   header nav div img {
     width: 200px;
-  }
-  header nav .link ul li {
-    display: none;
-  }
-  header nav .link button {
-    display: none;
   }
   header nav .link i {
     font-size: 50px;
@@ -448,13 +449,6 @@ footer .container_footer li {
 
   main {
     font-size: 30px;
-  }
-  main .jumbodron {
-    flex-wrap: wrap;
-  }
-  main .jumbodron .left {
-    flex-basis: 100%;
-    text-align: center;
   }
   main .jumbodron .left h1 {
     font-size: 110px;
@@ -469,40 +463,14 @@ footer .container_footer li {
     font-size: 30px;
     padding: 10px 20px;
   }
-  main .jumbodron .right {
-    flex-basis: 100%;
-  }
   main .processi .container_processi .parte_superiore h2, main .processi .container_processi .parte_inferiore h2 {
     font-size: 60px;
-  }
-  main .processi .container_processi .parte_superiore .list_card, main .processi .container_processi .parte_inferiore .list_card {
-    flex-wrap: wrap;
-  }
-  main .processi .container_processi .parte_superiore .card_animata, main .processi .container_processi .parte_inferiore .card_animata {
-    flex-basis: 100%;
-  }
-  main .funzionamento .sotto_sezione {
-    flex-wrap: wrap;
-  }
-  main .funzionamento .sotto_sezione .immagine_funzionamento {
-    flex-basis: 100%;
-  }
-  main .funzionamento .sotto_sezione .testo_funzionamento {
-    position: relative;
-    flex-basis: 100%;
-    text-align: center;
   }
   main .funzionamento .sotto_sezione .testo_funzionamento h2 {
     font-size: 60px;
   }
   main .funzionamento .sotto_sezione .testo_funzionamento p, main .funzionamento .sotto_sezione .testo_funzionamento a {
     font-size: 50px;
-  }
-  main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(odd) {
-    margin-left: 0;
-  }
-  main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(even) {
-    margin-right: 0;
   }
   main .messaggio h2 {
     font-size: 110px;
@@ -511,16 +479,10 @@ footer .container_footer li {
   main .messaggio img {
     width: 100px;
   }
-  main .messaggio .container_messaggio {
-    width: 80%;
-  }
   main .messaggio button {
     font-size: 30px;
   }
 
-  footer .container_footer {
-    flex-wrap: wrap;
-  }
   footer .container_footer div p {
     font-size: 30px;
     line-height: 40px;
@@ -534,32 +496,8 @@ footer .container_footer li {
   footer .container_footer div ul li a {
     font-size: 30px;
   }
-  footer .container_footer div:first-child {
-    width: 5%;
-  }
-  footer .container_footer div:first-child img {
-    width: 55px;
-  }
-  footer .container_footer div:nth-child(2) {
-    width: 75%;
-    margin-right: 10%;
-  }
-  footer .container_footer div:nth-child(3) {
-    width: 26.6%;
-    margin-left: 10%;
-  }
-  footer .container_footer div:nth-child(4) {
-    width: 26.6%;
-  }
-  footer .container_footer div:nth-child(5) {
-    width: 26.6%;
-    margin-right: 10%;
-  }
   footer .container_footer div:nth-child(6) {
     width: 26.6%;
     margin-left: 10%;
-  }
-  footer .container_footer div:last-child {
-    width: 26.6%;
   }
 }
