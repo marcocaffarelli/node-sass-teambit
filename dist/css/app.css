@@ -86,7 +86,7 @@ main .jumbodron .left h3 {
   margin-bottom: 120px;
 }
 main .jumbodron .left button {
-  background-color: darkblue;
+  background-color: #922C2C;
   color: white;
   border: none;
   border-radius: 5px;
@@ -110,7 +110,7 @@ main .jumbodron .right img {
   width: 100%;
 }
 main .processi {
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
 }
 main .processi .container_processi {
   display: flex;
@@ -188,7 +188,7 @@ main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(even) {
   margin-right: 25%;
 }
 main .messaggio {
-  background-color: #FFE7D2;
+  background-color: #93C7D0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -231,7 +231,7 @@ main .messaggio .container_messaggio .fondatori span {
   color: blue;
 }
 main .messaggio button {
-  background-color: darkblue;
+  background-color: #922C2C;
   color: white;
   border: none;
   border-radius: 5px;
