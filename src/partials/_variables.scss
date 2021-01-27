@@ -12,6 +12,8 @@ $display_flex: flex;
 
 $height_logo: 25px;
 
+$font_20px: 20px;
+
 @mixin flex-space-between{
     display: flex;
     justify-content: space-between;

@@ -297,7 +297,7 @@ footer .container_footer li {
   list-style: none;
 }
 
-@media screen and (min-width: 551px) and (max-width: 998px) {
+@media screen and (min-width: 550px) and (max-width: 998px) {
   header nav .link ul li {
     display: none;
   }
@@ -309,6 +309,9 @@ footer .container_footer li {
     display: block;
   }
 
+  main {
+    font-size: 20px;
+  }
   main .jumbodron {
     flex-wrap: wrap;
   }
@@ -316,16 +319,26 @@ footer .container_footer li {
     flex-basis: 100%;
     text-align: center;
   }
+  main .jumbodron .left h1 {
+    font-size: 60px;
+  }
   main .jumbodron .left h3 {
+    font-size: 30px;
     margin-bottom: 40px;
+  }
+  main .jumbodron .left button {
+    font-size: 20px;
   }
   main .jumbodron .right {
     flex-basis: 100%;
   }
-  main .processi .list_card {
+  main .processi .container_processi .parte_superiore h2, main .processi .container_processi .parte_inferiore h2 {
+    font-size: 35px;
+  }
+  main .processi .container_processi .parte_superiore .list_card, main .processi .container_processi .parte_inferiore .list_card {
     flex-wrap: wrap;
   }
-  main .processi .card_animata {
+  main .processi .container_processi .parte_superiore .card_animata, main .processi .container_processi .parte_inferiore .card_animata {
     flex-basis: 100%;
   }
   main .funzionamento .sotto_sezione {
@@ -340,7 +353,7 @@ footer .container_footer li {
     text-align: center;
   }
   main .funzionamento .sotto_sezione .testo_funzionamento p, main .funzionamento .sotto_sezione .testo_funzionamento a {
-    font-size: 20px;
+    font-size: 25px;
   }
   main .funzionamento .sotto_sezione .testo_funzionamento:nth-child(odd) {
     margin-left: 0;
@@ -371,9 +384,21 @@ footer .container_footer li {
   main .messaggio .container_messaggio {
     width: 80%;
   }
+  main .messaggio button {
+    font-size: 20px;
+  }
 
   footer .container_footer {
     flex-wrap: wrap;
+  }
+  footer .container_footer div p {
+    font-size: 20px;
+  }
+  footer .container_footer div h4 {
+    font-size: 25px;
+  }
+  footer .container_footer div ul li a {
+    font-size: 20px;
   }
   footer .container_footer div:first-child {
     width: 5%;

@@ -1,7 +1,6 @@
-@media screen and (min-width: 551px) and (max-width: 998px){
+@media screen and (min-width: 550px) and (max-width: 998px){
     header{
-        nav{
-           
+        nav{  
             .link{
                 ul{
                     li{
@@ -20,13 +19,21 @@
     }
     
     main{
+        font-size: $font_20px;
         .jumbodron{
             flex-wrap: wrap;
             .left{
                 flex-basis: 100%;
                 text-align: center;
+                h1{
+                    font-size: 60px;   
+                }
                 h3{
+                    font-size: 30px;
                     margin-bottom: 40px;
+                }
+                button{
+                    font-size: $font_20px;
                 }
             }
             .right{
@@ -35,11 +42,18 @@
         }
 
         .processi{
-            .list_card{
-                flex-wrap: wrap;
-            }
-            .card_animata{
-                flex-basis: 100%;
+            .container_processi{
+                .parte_superiore, .parte_inferiore{
+                    h2{
+                        font-size: 35px;
+                    }
+                    .list_card{
+                        flex-wrap: wrap;
+                    }
+                    .card_animata{
+                        flex-basis: 100%;
+                    }
+                }
             }
         }
         .funzionamento{
@@ -53,7 +67,7 @@
                     flex-basis: 100%;
                     text-align: center;
                     p, a{
-                        font-size: 20px;
+                        font-size: 25px;
                     }
                 }
 
@@ -103,12 +117,30 @@
             .container_messaggio{
                 width: 80%;
             }
+            button{
+                font-size: $font_20px;
+            }
         }
     }
 
     footer{
         .container_footer{
             flex-wrap: wrap;
+            div{
+                p{
+                    font-size: $font_20px;
+                }
+                h4{
+                    font-size:25px;
+                }
+                ul{
+                    li{
+                        a{
+                            font-size: $font_20px;
+                        }
+                    }
+                }
+            }
             div:first-child{
                 width: 5%;
                 img{
