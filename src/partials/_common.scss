@@ -19,3 +19,9 @@ nav, .jumbodron, .container_processi{
     width: 80%;
     margin:auto;
 }
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 1440px;
+  z-index: 1;
+}
