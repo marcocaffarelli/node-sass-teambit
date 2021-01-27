@@ -22,7 +22,7 @@ header{
             }
             button{
                 padding: 10px 15px;
-                border: 1px solid blue;
+                border: 1px solid $color_blue;
                 border-radius: 10px;
                 background-color: $bg_white;
                 img{
@@ -32,7 +32,7 @@ header{
                     position: relative;
                     bottom: 5px;
                     font-weight: bold;
-                    color: blue;
+                    color: $color_blue;
                 }
             }
         }

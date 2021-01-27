@@ -12,6 +12,7 @@ body {
 header, main, footer {
   width: 1440px;
   margin: auto;
+  color: #58402C;
 }
 
 nav, .jumbodron, .container_processi {
@@ -62,6 +63,7 @@ main .jumbodron {
   display: flex;
   justify-content: space-between;
   height: 635px;
+  padding-top: 40px;
 }
 main .jumbodron .left {
   width: 50%;
@@ -105,7 +107,6 @@ main .jumbodron .right img {
 }
 main .processi {
   background-color: #FFE7D2;
-  height: 2640px;
 }
 main .processi .container_processi {
   display: flex;

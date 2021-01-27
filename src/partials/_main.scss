@@ -2,6 +2,7 @@ main{
     .jumbodron{
         @include flex-space-between;
         height: 635px;
+        padding-top: 40px;
 
         .left{
             width: 50%;
@@ -19,7 +20,7 @@ main{
                 margin-bottom: 120px;
             }
             button{
-                background-color: darkblue;
+                background-color: $color_darkblue;
                 color: $bg_white;
                 border: none;
                 border-radius: 5px;
@@ -48,8 +49,7 @@ main{
 
     .processi{
         background-color: $bg_beige;
-        height: 2640px;
-        
+    
         .container_processi{
             display: flex;
             flex-direction: column;
@@ -144,7 +144,7 @@ main{
         .container_messaggio{
             position: relative;
             background-color: $bg_white;
-            border: 2px solid blue;
+            border: 2px solid $color_blue;
             border-radius: 10px;
             width: 40%;
             i{
@@ -152,7 +152,7 @@ main{
                 top: -20px;
                 left: -20px;
                 font-size: 40px;
-                color: blue;
+                color: $color_blue;
             }
             p{
                 margin: 20px;
@@ -168,12 +168,12 @@ main{
                     margin:0 20px;
                 }
                 span{
-                    color: blue;
+                    color: $color_blue;
                 }
             }
         }
         button{
-            background-color: darkblue;
+            background-color: $color_darkblue;
             color: $bg_white;
             border: none;
             border-radius: 5px;
